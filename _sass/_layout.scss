@@ -125,14 +125,14 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(38% - (#{$spacing-unit} / 2));
-    width:         calc(38% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     text-align: right;
-    width: -webkit-calc(62% - (#{$spacing-unit} / 2));
-    width:         calc(62% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -157,7 +157,6 @@
  * Page content
  */
 .page-content {
-	min-height: 575px;
     padding: $spacing-unit 0;
 }
 
@@ -229,4 +228,40 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Contact Page
+ */
+#contact-title {
+	margin: 50px;
+	margin-bottom: 0;
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact-tagline {
+	margin-top:0;
+	font-size:large;
+	text-align:center;
+	font-style:italic;
+    color: $grey-color-dark;
+}
+
+ul.weblinks {
+    @extend %clearfix;
+	margin: 60px 20px;
+    height: 180px;
+}
+
+ul.weblinks > li {
+	float:left;
+    width: -webkit-calc(20% - 2*5px);
+    width:         calc(20% - 2*5px);
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 90px 0px 10px 0px;
+    list-style-type: none;
+	text-align: center;
 }
