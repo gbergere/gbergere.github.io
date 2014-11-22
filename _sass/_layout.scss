@@ -231,6 +231,39 @@
 }
 
 /**
+ * About Page
+ */
+
+#about-wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+#about-tagline {
+    float: left;
+    width: -webkit-calc(70% - 80px);
+    width:         calc(70% - 80px);
+    margin: 40px 0px 40px 80px;
+    font-size:x-large;
+    font-style:italic;
+    color: $grey-color-dark;
+}
+
+#about-info {
+    float: right;
+    width: 30%;
+    height: 120px;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+section > h2 {
+    margin-left: 40px;
+}
+
+/**
  * Contact Page
  */
 #contact-title {
