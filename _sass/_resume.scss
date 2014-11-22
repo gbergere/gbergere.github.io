@@ -1,0 +1,86 @@
+/**
+ * About Page
+ */
+
+#about-wrapper {
+    @extend %clearfix;
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+}
+
+#about-header {
+    @extend %clearfix;
+}
+
+#about-tagline {
+    float: left;
+    width: 70%;
+    margin: 0;
+    text-align: center;
+    line-height: 100px;
+    font-size:x-large;
+    font-style:italic;
+    color: $grey-color-dark;
+}
+
+#about-info {
+    float: right;
+    width: 30%;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+section > h2 {
+    margin-left: 40px;
+    font-size: 32px;
+}
+
+#about-technologies,
+#about-linguistic, 
+#about-others {
+    float: left;
+    width: -webkit-calc(50% - 15px);
+    width:         calc(50% - 15px);
+}
+
+#about-technologies {
+    margin-right: 15px;
+}
+
+#about-technologies dt {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#about-linguistic,
+#about-others {
+    margin-left: 15px;
+}
+
+#about-others dl,
+#about-linguistic dl {
+    @extend %clearfix;
+}
+
+#about-others dt,
+#about-linguistic dt {
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+
+#about-others dt:after,
+#about-linguistic dt:after {
+    content: " :";
+}
+
+#about-others dd,
+#about-linguistic dd {
+    float: left;
+    width: -webkit-calc(80% - 2*5px);
+    width:         calc(80% - 2*5px);
+    margin: 0 5px;
+}
