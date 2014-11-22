@@ -264,4 +264,9 @@ ul.weblinks > li {
     padding: 90px 0px 10px 0px;
     list-style-type: none;
 	text-align: center;
+    
+    @include media-query($on-laptop) {
+        width: -webkit-calc(100% - 2*5px);
+        width:         calc(100% - 2*5px);
+    }
 }
