@@ -4,7 +4,7 @@ ul.weblinks > li {
     background-position: center 20px;
 }
 
-$webicons: facebook github linkedin twitter;
+$webicons: email github linkedin phone twitter;
 $webicons-url: "/img/webicons" !default;
 @each $webicon in $webicons {
     ul.weblinks > li##{$webicon} {
