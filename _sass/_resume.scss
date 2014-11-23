@@ -2,15 +2,12 @@
  * About Page
  */
 
-#about-wrapper {
+#about-header,
+#about-content,
+#about-footer {
     @extend %clearfix;
     margin: auto;
     width: 800px;
-    text-align: justify;
-}
-
-#about-header {
-    @extend %clearfix;
 }
 
 #about-tagline {
@@ -36,6 +33,12 @@
 section > h2 {
     margin-left: 40px;
     font-size: 32px;
+}
+
+#about-description, 
+#about-experiences,
+#about-schools {
+    text-align: justify;
 }
 
 #about-technologies,
@@ -83,4 +86,9 @@ section > h2 {
     width: -webkit-calc(80% - 2*5px);
     width:         calc(80% - 2*5px);
     margin: 0 5px;
+}
+
+#about-edit {
+    float:right;
+    font-style: italic;
 }
