@@ -157,6 +157,7 @@
  * Page content
  */
 .page-content {
+    min-height: 500px;
     padding: $spacing-unit 0;
 }
 
@@ -231,17 +232,27 @@
 }
 
 /**
+ * Index Page
+ */
+#index-tagline {
+    @extend .tagline;
+    padding-top: 50px;
+    line-height: 400px;
+}
+
+/**
  * Contact Page
  */
 
 #contact-tagline {
     @extend .tagline;
-    line-height: 150px;
+    padding-top: 80px;
+    line-height: 70px;
 }
 
 ul.weblinks {
     @extend %clearfix;
-	margin: 60px 20px;
+	margin: 60px 20px 30px 20px ;
     height: 180px;
 }
 
