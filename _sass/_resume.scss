@@ -7,22 +7,32 @@
 #about-footer {
     @extend %clearfix;
     margin: auto;
-    width: 800px;
+    max-width: 800px;
+}
+
+#about-info {
+    width: 35%;
+    float: right;
+    @include media-query($on-laptop) {
+        float: none;
+        width: 100%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+ 
 }
 
 #about-tagline {
     @extend .tagline;
-    float: left;
     width: 65%;
     line-height: 100px;
-}
 
-#about-info {
-    float: right;
-    width: 35%;
-
-    li {
-        list-style-type: none;
+    float: left;
+    @include media-query($on-laptop) {
+        float: none;
+        width: 100%;
     }
 }
 
@@ -43,9 +53,14 @@
 #about-technologies,
 #about-linguistic, 
 #about-others {
-    float: left;
     width: -webkit-calc(50% - 15px);
     width:         calc(50% - 15px);
+    
+    float: left;
+    @include media-query($on-laptop) {
+        float: none;
+        width: 100%;
+    }
 }
 
 #about-technologies {
@@ -88,6 +103,6 @@
 }
 
 #about-edit {
-    float:right;
+    text-align: right;
     font-style: italic;
 }
