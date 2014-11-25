@@ -13,22 +13,24 @@
 #about-tagline {
     @extend .tagline;
     float: left;
-    width: 70%;
+    width: 65%;
     line-height: 100px;
 }
 
 #about-info {
     float: right;
-    width: 30%;
+    width: 35%;
 
     li {
         list-style-type: none;
     }
 }
 
-section > h2 {
+#about-content > section > h2 {
+    font-variant: small-caps;
     margin-left: 40px;
-    font-size: 32px;
+    font-size: x-large;
+    border-bottom: solid 1px;
 }
 
 #about-description, 
