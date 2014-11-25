@@ -11,14 +11,10 @@
 }
 
 #about-tagline {
+    @extend .tagline;
     float: left;
     width: 70%;
-    margin: 0;
-    text-align: center;
     line-height: 100px;
-    font-size:x-large;
-    font-style:italic;
-    color: $grey-color-dark;
 }
 
 #about-info {

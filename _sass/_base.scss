@@ -187,18 +187,12 @@ pre {
 
 
 /**
- * Icons
+ * Tagline
  */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
+.tagline {
+    margin-top: 0;
+    font-size: x-large;
+    text-align: center;
+    font-style: italic;
+    color: $grey-color-dark;
 }

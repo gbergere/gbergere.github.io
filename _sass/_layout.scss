@@ -233,19 +233,10 @@
 /**
  * Contact Page
  */
-#contact-title {
-	margin: 50px;
-	margin-bottom: 0;
-	font-size: 5em;
-	text-align: center;
-}
 
 #contact-tagline {
-	margin-top:0;
-	font-size:large;
-	text-align:center;
-	font-style:italic;
-    color: $grey-color-dark;
+    @extend .tagline;
+    line-height: 150px;
 }
 
 ul.weblinks {
