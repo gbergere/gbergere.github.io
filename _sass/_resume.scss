@@ -65,6 +65,9 @@
 
 #about-technologies {
     margin-right: 15px;
+    @include media-query($on-laptop) {
+        margin-right: 0px;
+    }
 }
 
 #about-technologies dt {
@@ -75,6 +78,9 @@
 #about-linguistic,
 #about-others {
     margin-left: 15px;
+    @include media-query($on-laptop) {
+        margin-left: 0px;
+    }
 }
 
 #about-others dl,
@@ -105,4 +111,8 @@
 #about-edit {
     text-align: right;
     font-style: italic;
+
+    @include media-query($on-laptop) {
+        margin-top: 20px;
+    }
 }
