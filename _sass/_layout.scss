@@ -259,15 +259,39 @@ ul.weblinks {
 ul.weblinks > li {
 	float:left;
     width: -webkit-calc(20% - 2*5px);
-    width:         calc(20% - 2*5px);
-    box-sizing: border-box;
+    width:         calc(20% - 2*5px);   
     margin: 5px;
-    padding: 90px 0px 10px 0px;
     list-style-type: none;
-	text-align: center;
+    text-align: center;
     
+    .label {
+        color: $grey-color-dark;
+        font-variant: small-caps;
+    }
+
     @include media-query($on-laptop) {
         width: -webkit-calc(100% - 2*5px);
         width:         calc(100% - 2*5px);
     }
+
+}
+
+ul.weblinks > li:hover {
+    background-color: $grey-color-light;
+    border-radius: 20px;
+    -webkit-transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
+}
+
+ul.weblinks a { 
+    padding: 90px 0px 10px 0px;
+    display: block;
+}
+
+ul.weblinks a:hover {
+    padding-top:89px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: solid 1px;
+    border-radius: 20px;
 }
