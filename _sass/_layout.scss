@@ -233,7 +233,7 @@
 #index-tagline {
     @extend .tagline;
     padding-top: 50px;
-    line-height: 400px;
+    margin-top: 180px;
 }
 
 /**
@@ -273,7 +273,7 @@ ul.weblinks > li {
 }
 
 ul.weblinks > li:hover {
-    background-color: $grey-color-light;
+    background-color: white;
     border-radius: 20px;
     -webkit-transition: background-color 0.2s ease-in;
     transition: background-color 0.2s ease-in;
@@ -288,6 +288,6 @@ ul.weblinks a:hover {
     padding-top:89px;
     text-decoration: none;
     box-sizing: border-box;
-    border: solid 1px;
+    border: solid 1px $grey-color-light;
     border-radius: 20px;
 }

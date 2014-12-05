@@ -6,8 +6,9 @@
 #about-content,
 #about-footer {
     @extend %clearfix;
-    margin: auto;
+    margin: 20px auto;
     max-width: 800px;
+    min-width: 380px;
 }
 
 #about-info {
@@ -36,10 +37,18 @@
     }
 }
 
+#about-content > section {
+    margin: 0px 10px 20px 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: solid 1px $grey-color-light;
+    border-radius: 20px;
+}
+    
 #about-content > section > h2 {
     font-variant: small-caps;
-    margin-right: 40px;
-    margin-left: 40px;
+    padding-left: 40px;
     font-size: x-large;
     border-bottom: solid 1px;
 }
@@ -53,34 +62,20 @@
 #about-technologies,
 #about-linguistic, 
 #about-others {
-    width: -webkit-calc(50% - 15px);
-    width:         calc(50% - 15px);
-    
+    width: -webkit-calc(50% - 20px);
+    width:         calc(50% - 20px);
+
     float: left;
     @include media-query($on-laptop) {
         float: none;
-        width: 100%;
-    }
-}
-
-#about-technologies {
-    margin-right: 15px;
-    @include media-query($on-laptop) {
-        margin-right: 0px;
+        width: -webkit-calc(100% - 20px);
+        width:         calc(100% - 20px);
     }
 }
 
 #about-technologies dt {
-    margin-left: 20px;
-    font-style: italic;
-}
-
-#about-linguistic,
-#about-others {
     margin-left: 15px;
-    @include media-query($on-laptop) {
-        margin-left: 0px;
-    }
+    font-style: italic;
 }
 
 #about-others dl,
