@@ -61,6 +61,7 @@
 
 #about-technologies,
 #about-linguistic, 
+#about-human,
 #about-others {
     width: -webkit-calc(50% - 20px);
     width:         calc(50% - 20px);
@@ -76,6 +77,14 @@
 #about-technologies dt {
     margin-left: 15px;
     font-style: italic;
+}
+
+#about-human ul {
+    margin-left: 0px;
+}
+
+#about-human li {
+    list-style:none;
 }
 
 #about-others dl,
