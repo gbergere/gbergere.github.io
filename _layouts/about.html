@@ -2,13 +2,15 @@
 layout: default
 ---
 
-{% assign pages = (site.pages | where: "layout" , "about") %}
-{% for page in pages %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-{% endfor %}
-
 <header class="post-header">
-  <h1 class="post-title">{{ page.title }}</h1>
+  	<h1 id="about-title">{{ page.title }}</h1>
+
+  	<aside id="about-lang">
+	{% assign pages = (site.pages | where: "layout" , "about") %}
+  	{% for page in pages %}
+    	<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang | upcase }}</a>
+	{% endfor %}
+	</aside>
 </header>
 
 {{ content }}

@@ -2,6 +2,19 @@
  * About Page
  */
 
+.post-header {
+    @extend %clearfix;
+}
+
+#about-title {
+    @extend .post-title;
+    float:left;
+}
+
+#about-lang {
+    float: right;
+}
+
 #about-header,
 #about-content,
 #about-footer {
@@ -48,7 +61,7 @@
     
 #about-content > section > h2 {
     font-variant: small-caps;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: x-large;
     border-bottom: solid 1px;
 }
