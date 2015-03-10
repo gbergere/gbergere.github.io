@@ -1,30 +1,30 @@
 /**
- * About Page
+ * resume Page
  */
 
 .post-header {
     @extend %clearfix;
 }
 
-#about-title {
+#resume-title {
     @extend .post-title;
     float:left;
 }
 
-#about-lang {
+#resume-lang {
     float: right;
 }
 
-#about-header,
-#about-content,
-#about-footer {
+#resume-header,
+#resume-content,
+#resume-footer {
     @extend %clearfix;
     margin: 20px auto;
     max-width: 800px;
     min-width: 380px;
 }
 
-#about-picture {
+#resume-picture {
     float: right;
     margin: 0px 10px;
     @include media-query($on-laptop) {
@@ -43,7 +43,7 @@
     }
 }
 
-#about-info {
+#resume-info {
     width: 35%;
     float: right;
     margin: 30px auto;
@@ -58,7 +58,7 @@
  
 }
 
-#about-tagline {
+#resume-tagline {
     @extend .tagline;
     line-height: 165px;
 
@@ -69,18 +69,18 @@
     }
 }
 
-#about-tagline-en {
-    @extend #about-tagline;
+#resume-tagline-en {
+    @extend #resume-tagline;
     width: 65%;
 }
 
-#about-tagline-fr {
-    @extend #about-tagline;
+#resume-tagline-fr {
+    @extend #resume-tagline;
     width: -webkit-calc(100% - 170px);
     width:         calc(100% - 170px);
 }
 
-#about-content > section {
+#resume-content > section {
     margin: 0px 10px 20px 10px;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -89,16 +89,16 @@
     border-radius: 20px;
 }
     
-#about-content > section > h2 {
+#resume-content > section > h2 {
     font-variant: small-caps;
     padding-left: 20px;
     font-size: x-large;
     border-bottom: solid 1px;
 }
 
-#about-description, 
-#about-experiences,
-#about-schools {
+#resume-description, 
+#resume-experiences,
+#resume-schools {
     text-align: justify; 
 
     dt {
@@ -110,10 +110,10 @@
     }
 }
 
-#about-technologies,
-#about-linguistic, 
-#about-management,
-#about-hobbies {
+#resume-technologies,
+#resume-linguistic, 
+#resume-management,
+#resume-hobbies {
     width: -webkit-calc(50% - 20px);
     width:         calc(50% - 20px);
 
@@ -125,7 +125,7 @@
     }
 }
 
-#about-technologies { 
+#resume-technologies { 
     dt { 
         margin-left: 15px;
          font-style: italic; 
@@ -146,8 +146,8 @@
     }
 }
 
-#about-management,
-#about-hobbies {
+#resume-management,
+#resume-hobbies {
     ul { 
         margin-left: 0px; 
     }
@@ -156,7 +156,7 @@
     }
 }
 
-#about-linguistic {
+#resume-linguistic {
     dl { 
         @extend %clearfix; 
     }
@@ -177,7 +177,7 @@
     }
 }
 
-#about-edit {
+#resume-edit {
     text-align: right;
     font-style: italic;
 
