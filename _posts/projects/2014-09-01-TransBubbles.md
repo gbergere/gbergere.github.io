@@ -1,6 +1,6 @@
 ---
 title:  "TransBubbles"
-page_url: "https://github.com/TransComics/TransBubbles"
+website: "https://github.com/TransComics/TransBubbles"
 categories : projects
 ---
 

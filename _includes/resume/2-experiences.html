@@ -15,9 +15,9 @@
                     {{ post.entry_date }} <span class="italique">to</span> {{ post.out_date }} {% if post.time %} ({{ post.time }}){% endif %}
                 </time>
 
-                {%if  post.company_url %}
+                {%if  post.website %}
                     <city class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <a href="{{ post.company_url }}" target="_blanck">
+                        <a href="{{ post.website }}" target="_blanck">
                             <i class="fa fa-globe"></i> Visit web page
                         </a>
                     </city>

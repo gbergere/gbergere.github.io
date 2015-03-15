@@ -5,25 +5,25 @@ layout: resume
 {% include content/1-header.html %}
 
 {% if site.categories.experiences %}
-    {% include content/2-experiences.html %}
+    {% include resume/2-experiences.html %}
 {% endif %}
 {% if site.categories.projects %}
-    {% include content/3-projects.html %}
+    {% include resume/3-projects.html %}
 {% endif %}
 {% if site.custom_category_name and site.categories.customs %}
-    {% include content/4-customs.html %}
+    {% include resume/4-customs.html %}
 {% endif %}
 {% if site.categories.skills or site.skills %}
-    {% include content/5-skills.html %}
+    {% include resume/5-skills.html %}
 {% endif %}
 {% if site.categories.educations %}
-    {% include content/6-educations.html %}
+    {% include resume/6-educations.html %}
 {% endif %}
 {% if site.resume.hobbies %}
-    {% include content/7-hobbies.html %}
+    {% include resume/7-hobbies.html %}
 {% endif %}
 {% if site.resume.infos %}
-    {% include content/8-informations.html %}
+    {% include resume/8-informations.html %}
 {% endif %}
 
 {% include content/9-footer.html %}
