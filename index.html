@@ -1,41 +1,27 @@
 ---
-layout: default
-title: Contact
+layout: resume
 ---
 
-<section id="contact-content">
-	<h5 id="contact-tagline">Get in touch with me to get more information</h5>
+{% include content/1-header.html %}
 
-	<ul class="weblinks">
-		<li id="email">
-			<a href="mailto:contact[]gbergeret[]org" title="contact[]gbergeret[]org">
-				<p class="label">Email</p>
-				<p>contact[]gbergeret[]org</p>
-			</a>
-		</li>
-    	<li id="linkedin">
-    		<a href="https://www.linkedin.com/pub/geoffrey-bergeret/37/b2/667" title="LinkedIn account">
-				<p class="label">LinkedIn</p>
-				<p>Go</p>
-			</a>
-		</li>
-		<li id="github">
-			<a href="https://github.com/gbergere" title="GitHub account">
-				<p class="label">GitHub</p>
-				<p>Go</p>
-			</a>
-		</li>
-		<li id="twitter">
-			<a href="https://twitter.com/gbergere" title="Twitter account">
-				<p class="label">Twitter</p>
-				<p>Follow me</p>
-			</a>
-	    </li>
-	    <li id="phone">
-	    	<a href="tel:+33651824048" title="+33 (0)6.51.82.40.48">
-	    	    <p class="label">Phone</p>
-	    	    <p>+33 (0)6.51.82.40.48</p>
-	    	</a>
-	    </li>
-	</ul>
-</section>
+{% if site.categories.experiences %}
+    {% include content/2-experiences.html %}
+{% endif %}
+{% if site.categories.projects %}
+    {% include content/3-projects.html %}
+{% endif %}
+{% if site.custom_category_name and site.categories.customs %}
+    {% include content/4-customs.html %}
+{% endif %}
+{% if site.categories.skills or site.skills %}
+    {% include content/5-skills.html %}
+{% endif %}
+{% if site.categories.educations %}
+    {% include content/6-educations.html %}
+{% endif %}
+{% if site.categories.hobbies or site.hobbies %}
+    {% include content/7-hobbies.html %}
+{% endif %}
+
+{% include content/8-informations.html %}
+{% include content/9-footer.html %}

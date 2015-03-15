@@ -1,13 +1,112 @@
 # Site settings
 title: "G. BERGERET"
-email: "support@gbergeret.org"
-description: > 
-  Gbergeret.org WebSite.
+name: "GBergeret.org"
+description: >
+  Gbergeret.org Personnal WebSite.
 url: "http://www.gbergeret.org"
-baseurl: ""
+
+author:
+  title: "Computer Engineer"
+  name: "Geoffrey BERGERET"
+  email: "contact[]gbergeret[]org"
+  phone: "+33651824048"
+  linkedin: "geoffrey-bergeret/37/b2/667"
+  github: "gbergere"
+  twitter: "gbergere"
+  facebook: "gbergere"
+
+resume:
+  fr: "/Geoffrey_BERGERET_CV.pdf"
+  en: "/Geoffrey_BERGERET_Resume.pdf"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 # User variables
 repository: "https://github.com/gbergere/gbergere.github.io"
+quote: "Divide and Rule"
+
+
+
+
+
+
+metadata: ["Leo Derbois","github","jekyll","jekyllrb","resume","CV","Boba Fett"] # Metadata for
+# If you want to analyse your site  with google analytics (code like UA-5293-1)
+googleAnalyticsID: #UA-54776XXXX-XXX
+ackeeAnalytics: http://pmpa.ovh:8893/!
+#custom-css: /css/leoderbois.css # CSS with import main.less or not, to customise or override some properties
+
+
+#### SEO Informations ####
+SEO_GOOGLE_PUBLISHER: +LéoDerbois #+YourName
+SEO_LOCAL: en_US
+#SEO_Title <- title
+#SEO_DESCRIPTION  <- summary
+#SEO_URL <- site.url
+#SEO_site_name <-title
+SEO_IMAGE: /img/Geoffrey.jpg
+SEO_ALEXA_VERIFY_ID:
+SEO_GOOGLE_SITE_VERIFICATION:
+
+############################# Personnal Inforamtions ################################
+summary: Intergalactic Hit Man # a simple sentence about you
+phone  : +33 06 71 82 84 56 # your phone number
+
+# Where you leave ?
+street : 45 Wookies street
+city   : Kamino
+zipcode: 45002
+
+
+# if you have a site or a custom blog
+blog_name: Boba Fett At School
+blog_url : http://www.osxbricks.com
+
+############################# Site Options ################################
+favicon         : /assets/bobafett.ico 		# website Favicon  / Need to be local (in assets forlder)
+#avatar          : NOW IN BOBAFETT.less
+#panel_background: NOW IN BOBAFETT.less
+
+
+##### Custom category #####
+custom_category_icon: bullhorn # fontawesom icon
+############################ Resume Content ################################
+# Your Hobbies
+#if you remove this, articles with 'hobbies' category are considerated
+hobbies:
+- Pod Racer Competition
+- Computer Sciences
+- Women
+- Cooking for friends
+
+
+# Your Kills
+#if you remove this, articles with 'skills' category are considerated
+skills:
+ - sectionName: Hitman skills
+   elements:
+    - name: Weapons
+      values: ["Blasters","Heavy ranged","Melee"]
+    - name: Spacecraft
+      values: ["Slave I & II","A-WING FIGHTER","AAT BATTLE TANK"]
+    - name: Cooking
+      values: ["Cake","Muffins"]
+ - sectionName: Typist skills
+   elements:
+    - name: Microsoft Office
+      values: ["Word","Excel","Powerpoint"]
+    - name: Apple iWork
+      values: ["Pages","Numbers"]
+
+# Some inforamtions you want to add
+informations-custom:
+- text: Space ship drive Licence + vehicle
+  logo: space-shuttle #fontawesome
+- text: Cooking Wookie stuff
+  logo: spoon #fontawesome
+- text: Have a lot of guns
+
+# Languages you speak (put your level in parentheses)
+speaking-langugages: ["Mandalorian (native)","Huttese (professionnal)","Wookie (bases)"]
