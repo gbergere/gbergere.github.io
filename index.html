@@ -19,9 +19,11 @@ layout: resume
 {% if site.categories.educations %}
     {% include content/6-educations.html %}
 {% endif %}
-{% if site.categories.hobbies or site.hobbies %}
+{% if site.resume.hobbies %}
     {% include content/7-hobbies.html %}
 {% endif %}
+{% if site.resume.infos %}
+    {% include content/8-informations.html %}
+{% endif %}
 
-{% include content/8-informations.html %}
 {% include content/9-footer.html %}
