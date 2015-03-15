@@ -3,9 +3,10 @@
 ---
 @charset "utf-8";
 
-
-@import "colors"; // default color variables for bobafett theme - remove it if you don't neet
-
+$links          : #2A7AE2;
+$navbar         : #b6b6b6;
+$navbar-hover   : white;
+$quote          : #2A7AE2;
 
 /*################################################################################*/
 /*#       !!!!! CHANGE PARAMETER HERE TO CHANGE COLORS/FONTS etc... !!!!!        #*/
@@ -16,11 +17,9 @@
 /*#######################*/
 
 
-
-
 /* -- >links */
-$link-color                       : $red;
-$link-color-hover                 : $orange;
+$link-color                       : $links;
+$link-color-hover                 : $navbar;
 
 /* --> Fonts */
 $font-global                      : 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -38,11 +37,11 @@ $avatar-image :     "/img/Geoffrey.jpg";  /* Need to be local (in assets forlder
 $background-image : "/img/background.png"; /*Need to be local (in assets forlder)*/
 /* --> Colors */
 $panel-text-color                 : white;
-$panel-summary-color              : $green-light;
+$panel-summary-color              : white;
 
-$panel-link-color                 : $orange;
-$panel-link-color-hover           : $green;
-$panel-nav-color-hover        : transparent;
+$panel-link-color                 : $navbar;
+$panel-link-color-hover           : $navbar-hover;
+$panel-nav-color-hover            : transparent;
 
 /* --> background */
 $panel-filter-and-background-color: black;
@@ -65,8 +64,8 @@ $content-nav-height-to-remove   : 730px; // $screen-sm-min + 30 (30+/- if custom
 $content-background-color         : white;
 $content-text-color               : black;
 
-$content-quote-color              : $red-light-o;
-$content-title-text-color         : $red-light;
+$content-quote-color              : $quote;
+$content-title-text-color         : $links;
 $content-post-title-color         : $content-text-color;
 $content-post-info-color          : #818181;
 $content-post-color         : #434343;
@@ -76,7 +75,7 @@ $content-title-icon-color         : $content-text-color;
 $content-post-icon-color          : $content-text-color;
 $content-pdf-button-color         : black;
 $content-pdf-text-color           : white;
-$content-pdf-button-color-hover   : $orange;
+$content-pdf-button-color-hover   : $navbar;
 
 
 /* --> sizes */
