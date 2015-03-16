@@ -5,26 +5,19 @@ description: >
   Gbergeret.org Personnal WebSite.
 url: "http://www.gbergeret.org"
 keywords: [
-  "Geoffrey BERGERET", "Computer Engineer",
-  "Leo Derbois","github","jekyll","jekyllrb","resume","CV","Boba Fett"
+  "Geoffrey BERGERET", "Computer Engineer", "gbergeret.org",
+  "Leo Derbois","github","jekyll","jekyllrb","_resume","CV","Boba Fett"
 ]
 
 author:
   title: "Computer Engineer"
   name: "Geoffrey BERGERET"
-  email: "contact[]gbergeret[]org"
-  phone: "+33 6.51.82.40.48"
+  email: "contact@gbergeret.org"
+  phone: "+33.6.51.82.40.48"
   linkedin: "geoffrey-bergeret/37/b2/667"
   github: "gbergere"
   twitter: "gbergere"
   facebook: "gbergere"
-
-resume:
-  fr: "/Geoffrey_BERGERET_CV.pdf"
-  en: "/Geoffrey_BERGERET_Resume.pdf"
-
-  hobbies: true
-  infos: true
 
 # Build settings
 markdown: kramdown
@@ -33,25 +26,3 @@ permalink: pretty
 # User variables
 repository: "https://github.com/gbergere/gbergere.github.io"
 quote: "Divide and Rule"
-
-
-
-
-
-
-#if you remove this, articles with 'skills' category are considerated
-skills:
- - sectionName: Hitman skills
-   elements:
-    - name: Weapons
-      values: ["Blasters","Heavy ranged","Melee"]
-    - name: Spacecraft
-      values: ["Slave I & II","A-WING FIGHTER","AAT BATTLE TANK"]
-    - name: Cooking
-      values: ["Cake","Muffins"]
- - sectionName: Typist skills
-   elements:
-    - name: Microsoft Office
-      values: ["Word","Excel","Powerpoint"]
-    - name: Apple iWork
-      values: ["Pages","Numbers"]

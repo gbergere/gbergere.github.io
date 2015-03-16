@@ -1,25 +1,28 @@
-<section id="projects" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<section id="projects" class="row">
 
-    <h2  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2>
         <i class="fa fa-folder-open"></i> Projects
     </h2>
 
-    <div class="content-posts content-line">
+    <ul class="content-posts content-line">
         {% for post in site.categories.projects %}
             <li>
-                <div class="post-title  col-lg-12 col-md-12 col-sm-12 col-xs-12 "><i class="fa fa-chevron-right"></i> {{ post.title }}</div>
+                <div class="post-title">
+                    <i class="fa fa-chevron-right"></i> {{ post.title }}
+                </div>
+
                 {%if  post.website %}
-                    <city class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <city>
                         <a href="{{ post.website }}" target="_blanck">
                             <i class="fa fa-globe"></i> Visit web page
                         </a>
                     </city>
                 {% endif %}
 
-                <div class="post-content col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <div class="post-content">
                     {{ post.content }}
                 </div>
             </li>
         {% endfor %}
-    </div>
+    </ul>
 </section>

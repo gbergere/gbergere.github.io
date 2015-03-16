@@ -592,11 +592,11 @@ $modal-title-padding:         15px !default;
 //** Modal title line-height
 $modal-title-line-height:     $line-height-base !default;
 
-//** Background color of modal resume area
+//** Background color of modal _resume area
 $modal-content-bg:                             #fff !default;
-//** Modal resume border color
+//** Modal _resume border color
 $modal-content-border-color:                   rgba(0,0,0,.2) !default;
-//** Modal resume border color **for IE8**
+//** Modal _resume border color **for IE8**
 $modal-content-fallback-border-color:          #999 !default;
 
 //** Modal backdrop background color
@@ -680,14 +680,14 @@ $list-group-active-color:       $component-active-color !default;
 $list-group-active-bg:          $component-active-bg !default;
 //** Border color of active list elements
 $list-group-active-border:      $list-group-active-bg !default;
-//** Text color for resume within active list items
+//** Text color for _resume within active list items
 $list-group-active-text-color:  lighten($list-group-active-bg, 40%) !default;
 
 //** Text color of disabled list items
 $list-group-disabled-color:      $gray-light !default;
 //** Background color of disabled list items
 $list-group-disabled-bg:         $gray-lighter !default;
-//** Text color for resume within disabled list items
+//** Text color for _resume within disabled list items
 $list-group-disabled-text-color: $list-group-disabled-color !default;
 
 $list-group-link-color:         #555 !default;
