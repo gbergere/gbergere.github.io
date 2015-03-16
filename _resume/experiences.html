@@ -1,7 +1,7 @@
 <section id="experiences" class="col-xs-12">
     <h2><i class="fa fa-briefcase"></i> Experiences</h2>
 
-    <ul class="content-posts content-line">
+    <ul class="content-posts">
         {% for post in site.categories.experiences %}
             <li class="content-post">
 
@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="row">
-                    {%if  post.website %}
+                    {% if  post.website %}
                         <city class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <a href="{{ post.website }}" target="_blanck">
                                 <i class="fa fa-globe"></i> Visit web page
@@ -33,8 +33,18 @@
 
                 <div class="post-content">
                     {{ post.content }}
+                    <aside class="row content-list">
+                        <ul class="references">
+                            {% for reference in post.references %}
+                            <li class="col-lg-4 col-md-6 col-xs-12">
+                                <i class="fa fa-dot-circle-o"></i> {{ reference }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </aside>
                 </div>
-           </li>
+
+            </li>
         {% endfor %}
     </ul>
 </section>

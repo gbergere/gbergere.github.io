@@ -18,7 +18,17 @@
 
                 <div class="post-content">
                     {{ post.content }}
+                    <aside class="row content-list">
+                        <ul class="references">
+                            {% for reference in post.references %}
+                            <li class="col-lg-4 col-md-6 col-xs-12">
+                                <i class="fa fa-dot-circle-o"></i> {{ reference }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </aside>
                 </div>
+
             </li>
         {% endfor %}
     </ul>
