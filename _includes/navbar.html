@@ -1,55 +1,53 @@
-<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
-    <div id="panel" >
+<div id="panel" >
 
-        <div class="panel-avatar"></div>
-        <h1 class="panel-name">{{ site.author.name }}</h1>
+    <div class="panel-avatar"></div>
+    <h1 class="panel-name">{{ site.author.name }}</h1>
 
-        <ul class="panel-social">
-            {% if site.author.email %}
-                <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-square"></i></a></li>
-            {% endif %}
+    <ul class="panel-social">
+        {% if site.author.email %}
+            <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-square"></i></a></li>
+        {% endif %}
 
-            {% if site.author.phone %}
-                <li><a href="tel:{{ site.author.phone }}"><i class="fa fa-phone-square"></i></a></li>
-            {% endif %}
+        {% if site.author.phone %}
+            <li><a href="tel:{{ site.author.phone }}"><i class="fa fa-phone-square"></i></a></li>
+        {% endif %}
 
-            {% if site.author.linkedin %}
-                <li><a href="http://www.linkedin.com/pub/{{ site.author.linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
-            {% endif %}
+        {% if site.author.linkedin %}
+            <li><a href="http://www.linkedin.com/pub/{{ site.author.linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
+        {% endif %}
 
-            {% if site.author.google %}
-            <li class="noresponsiveMD"><a href="https://plus.google.com/+{{ site.author.google }}"><i class="fa fa-google-plus-square"></i></a></li>
-            {% endif %}
+        {% if site.author.google %}
+        <li class="noresponsiveMD"><a href="https://plus.google.com/+{{ site.author.google }}"><i class="fa fa-google-plus-square"></i></a></li>
+        {% endif %}
 
-            {% if site.author.facebook %}
-            <li><a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook-square"></i></a></li>
-            {% endif %}
+        {% if site.author.facebook %}
+        <li><a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook-square"></i></a></li>
+        {% endif %}
 
-            {% if site.author.github %}
-                <li><a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github-square" ></i></a></li>
-            {% endif %}
+        {% if site.author.github %}
+            <li><a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github-square" ></i></a></li>
+        {% endif %}
 
-            {% if site.author.twitter %}
-                <li><a href="http://www.twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter-square"></i></a></li>
-            {% endif %}
+        {% if site.author.twitter %}
+            <li><a href="http://www.twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter-square"></i></a></li>
+        {% endif %}
+    </ul>
+
+    <div class="panel-summary">{{ site.author.title }}</div>
+
+    <nav id="navbar"  role="navigation">
+        <ul class="nav">
+
+            <li><a class="scrollTo" href="#summary">Summary</a></li>
+            <li><a class="scrollTo" href="#experiences">Experiences</a></li>
+            <li><a class="scrollTo" href="#projects"> Projects</a></li>
+            <li><a class="scrollTo" href="#technical-skills">Technical Skills</a></li>
+            <li><a class="scrollTo" href="#communication-skills">Communication Skills</a></li>
+            <li><a class="scrollTo" href="#educations">Education</a></li>
+            <li><a class="scrollTo" href="#hobbies">Hobbies</a></li>
+            <li><a href="#informations" >Informations</a></li>
         </ul>
-
-        <div class="panel-summary">{{ site.author.title }}</div>
-
-        <nav id="navbar"  role="navigation">
-            <ul class="nav">
-
-                <li><a class="scrollTo" href="#summary">Summary</a></li>
-                <li><a class="scrollTo" href="#experiences">Experiences</a></li>
-                <li><a class="scrollTo" href="#projects"> Projects</a></li>
-                <li><a class="scrollTo" href="#technical-skills">Technical Skills</a></li>
-                <li><a class="scrollTo" href="#communication-skills">Communication Skills</a></li>
-                <li><a class="scrollTo" href="#educations">Education</a></li>
-                <li><a class="scrollTo" href="#hobbies">Hobbies</a></li>
-                <li><a href="#informations" >Informations</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="panel-background-image" ></div>
+    </nav>
 </div>
+
+<div class="panel-background-image" ></div>

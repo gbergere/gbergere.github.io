@@ -170,22 +170,6 @@ pre {
     }
 }
 
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
-
 /**
  * Tagline
  */
@@ -195,4 +179,24 @@ pre {
     text-align: center;
     font-style: italic;
     color: $grey-color-dark;
+}
+
+
+
+
+
+
+
+
+
+/**************************
+ *  Clearfix
+ *************************/
+%clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
