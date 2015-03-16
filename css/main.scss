@@ -95,6 +95,6 @@ $footer-text-color                : grey;
 $footer-link-color                : $link-color;
 $footer-link-hover-color          : $link-color-hover;
 
+@import "base";
 @import "layout-navbar";
 @import "layout-resume";
-
