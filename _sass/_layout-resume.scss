@@ -234,7 +234,6 @@ a:hover .panel-avatar{
 }
 .content-quote{
 	width: 100%;
-	text-align: justify;
 	font-weight: 300;
 	font-size: $content-quote-font-size;
 	padding : 40px;
@@ -359,4 +358,21 @@ footer a{
 }
 footer a:hover{
 	color: $footer-link-hover-color;
+}
+
+
+
+
+
+
+
+
+
+
+/**************************
+ *  Header Part
+ */
+blockquote.content-quote {
+  margin: 0;
+  border: 0;
 }
