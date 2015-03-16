@@ -95,6 +95,6 @@ $footer-text-color                : grey;
 $footer-link-color                : $link-color;
 $footer-link-hover-color          : $link-color-hover;
 
-// Don't remove, it's all layouts !
+@import "layout-navbar";
 @import "layout-resume";
 
