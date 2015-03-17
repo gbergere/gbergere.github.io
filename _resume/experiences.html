@@ -3,7 +3,7 @@
 
     <ul class="content-posts">
         {% for post in site.categories.experiences %}
-            <li class="content-post">
+            <li class="content-post">
 
                 <div class="row">
                     <div class="col-lg-8 col-xs-12 post-title">
@@ -17,15 +17,15 @@
 
                 <div class="row">
                     {% if  post.website %}
-                        <city class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <a href="{{ post.website }}" target="_blanck">
+                        <city class="col-sm-6 col-xs-12">
+                            <a href="{{ post.website }}">
                                 <i class="fa fa-globe"></i> Visit web page
                             </a>
                         </city>
                     {% endif %}
 
                     {% if post.city %}
-                        <city class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <city class="col-sm-6 col-xs-12">
                              <i class="fa fa-map-marker" ></i> {{ post.city }}
                         </city>
                     {% endif %}

@@ -3,8 +3,8 @@ title:  "Web Developper (Trainee)"
 company: "Sales Conquest"
 city: "Lausanne (Swizerland)"
 website: "http://www.salesconquest.com"
-entry_date : "April 2011"
-out_date: "June 2011"
+entry_date : "Apr 2011"
+out_date: "Jun 2011"
 time : "10 weeks"
 references: ["PHP", "MySQL", "MVP", "(x)HTML"]
 categories: experiences
