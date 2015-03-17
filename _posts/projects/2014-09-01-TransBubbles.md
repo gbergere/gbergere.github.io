@@ -1,7 +1,7 @@
 ---
 title:  "TransBubbles"
 website: "https://github.com/TransComics/TransBubbles"
-references: ["Laravel", "SCRUM", "MySQL", "SQLite", "ORM"]
+references: ["Laravel", "Scrum", "MySQL", "SQLite", "ORM", "MVP"]
 categories : projects
 ---
 

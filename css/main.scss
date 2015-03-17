@@ -3,10 +3,10 @@
 ---
 @charset "utf-8";
 
+$navbar         : #a636d3;
+$navbar-hover   : #d23bff;
 $links          : #2A7AE2;
-$navbar         : #b6b6b6;
-$navbar-hover   : white;
-$quote          : #2A7AE2;
+$quote          : $navbar;
 
 /*################################################################################*/
 /*#       !!!!! CHANGE PARAMETER HERE TO CHANGE COLORS/FONTS etc... !!!!!        #*/
