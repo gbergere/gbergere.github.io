@@ -8,20 +8,21 @@
     	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <h4>Contacts</h4>
             <ul >
-                {%if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}">
-                        <i class="fa fa-paper-plane"></i> {{ site.author.email }}
-                    </a></li>
-                {% endif %}
-                {%if site.author.phone %}
-                    <li><a href="tel:{{ site.author.phone | replace:' ', '' | replace:'.','' }}">
-                        <i class="fa fa-phone"></i> {{ site.author.phone }}
-                    </a></li>
-                {% endif %}
+                <li><a href="mailto:{{ site.author.email }}">
+                    <i class="fa fa-envelope"></i> {{ site.author.email }}
+                </a></li>
+                <li><i class="fa fa-lock"></i> GPG ID :
+                    <a href="http://pgp.mit.edu/pks/lookup?op=get&search=0xE6954D990866CED3">
+                        0866CED3
+                    </a>
+                </li>
+                <li><a href="tel:{{ site.author.phone | replace:' ', '' | replace:'.','' }}">
+                    <i class="fa fa-phone"></i> {{ site.author.phone }}
+                </a></li>
             </ul>
         </div>
     
-        <div class="col-lg-4 col-md-6  col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <h4>Social Networking</h4>
             <ul >
                 {% if site.author.linkedin %}
@@ -55,14 +56,14 @@
         <div class="col-lg-4 col-md-6  col-sm-12 col-xs-12">
             <h4>Others</h4>
             <ul>
+                <li><i class="fa fa-flag"></i> French Nationality</li>
                 <li><i class="fa fa-car"></i> Driving licence</li>
-                <li><i class="fa fa-motorcycle"></i> Motorcyle licence</li>
             </ul>
 
             <h4>Languages </h4>
             <ul>
                 <li>French (native)</li>
-                <li>English (TOEIC B2)</li>
+                <li>English (B2)</li>
                 <li>German (bases)</li>
             </ul>
         </div>

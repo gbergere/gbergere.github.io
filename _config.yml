@@ -17,7 +17,7 @@ author:
   linkedin: "geoffrey-bergeret/37/b2/667"
   github: "gbergere"
   twitter: "gbergere"
-  facebook: "gbergere"
+#  facebook: "gbergere"
 
 # Build settings
 markdown: kramdown
