@@ -1,0 +1,71 @@
+<section id="informations" class="col-xs-12">
+
+    <h2>
+        <i class="fa fa-info"></i> Informations
+    </h2>
+
+    <div class="content-posts content-list">
+    	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <h4>Contacts</h4>
+            <ul >
+                {%if site.author.email %}
+                    <li><a href="mailto:{{ site.author.email }}">
+                        <i class="fa fa-paper-plane"></i> {{ site.author.email }}
+                    </a></li>
+                {% endif %}
+                {%if site.author.phone %}
+                    <li><a href="tel:{{ site.author.phone | replace:' ', '' | replace:'.','' }}">
+                        <i class="fa fa-phone"></i> {{ site.author.phone }}
+                    </a></li>
+                {% endif %}
+            </ul>
+        </div>
+    
+        <div class="col-lg-4 col-md-6  col-sm-12 col-xs-12">
+            <h4>Social Networking</h4>
+            <ul >
+                {% if site.author.linkedin %}
+                    <li><a href="http://www.linkedin.com/pub/{{site.author.linkedin}}" target="_blank">
+                        <i class="fa fa-linkedin"></i> {{site.author.name}}
+                    </a></li>
+                {% endif %}
+                {% if site.author.google %}
+                    <li><a href="https://plus.google.com/+{{site.author.google}}" target="_blank">
+                        <i class="fa fa-google-plus"></i> {{site.author.name}}
+                    </a></li>
+                {% endif %}
+                {% if site.author.facebook %}
+                <li><a href="https://www.facebook.com/{{site.author.facebook}}" target="_blank">
+                    <i class="fa fa-facebook"></i> {{site.author.name}}
+                </a></li>
+                {% endif %}
+                {% if site.author.github %}
+                    <li><a href="https://github.com/{{site.author.github}}" target="_blank">
+                        <i class="fa fa-github" ></i> {{site.author.github}}
+                    </a></li>
+                {% endif %}
+                {% if site.author.twitter %}
+                    <li><a href="http://www.twitter.com/{{site.author.twitter}}" target="_blank">
+                        <i class="fa fa-twitter"></i> @{{site.author.twitter}}
+                    </a></li>
+                {% endif %}
+            </ul>
+        </div>
+    
+        <div class="col-lg-4 col-md-6  col-sm-12 col-xs-12">
+            <h4>Others</h4>
+            <ul>
+                <li><i class="fa fa-car"></i> Driving licence</li>
+                <li><i class="fa fa-motorcycle"></i> Motorcyle licence</li>
+            </ul>
+
+            <h4>Languages </h4>
+            <ul>
+                <li>French (native)</li>
+                <li>English (TOEIC B2)</li>
+                <li>German (bases)</li>
+            </ul>
+        </div>
+    </div>
+
+  </section>

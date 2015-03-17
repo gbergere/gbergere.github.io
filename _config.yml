@@ -1,13 +1,28 @@
 # Site settings
 title: "G. BERGERET"
-email: "support@gbergeret.org"
-description: > 
-  Gbergeret.org WebSite.
+name: "GBergeret.org"
+description: >
+  Gbergeret.org Personnal WebSite.
 url: "http://www.gbergeret.org"
-baseurl: ""
+keywords: [
+  "Geoffrey BERGERET", "Computer Engineer", "gbergeret.org",
+  "Leo Derbois","github","jekyll","jekyllrb","_resume","CV","Boba Fett"
+]
+
+author:
+  title: "Computer Engineer"
+  name: "Geoffrey BERGERET"
+  email: "contact@gbergeret.org"
+  phone: "+33 6.51.82.40.48"
+  linkedin: "geoffrey-bergeret/37/b2/667"
+  github: "gbergere"
+  twitter: "gbergere"
+  facebook: "gbergere"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 # User variables
 repository: "https://github.com/gbergere/gbergere.github.io"
+quote: "Divide and Rule"
