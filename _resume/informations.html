@@ -14,7 +14,7 @@
                     </a></li>
                 {% endif %}
                 {%if site.author.phone %}
-                    <li><a href="tel:{{ site.author.phone }}">
+                    <li><a href="tel:{{ site.author.phone | replace:' ', '' | replace:'.','' }}">
                         <i class="fa fa-phone"></i> {{ site.author.phone }}
                     </a></li>
                 {% endif %}
