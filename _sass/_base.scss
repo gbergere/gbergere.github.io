@@ -15,3 +15,26 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
+/***************************
+ *  navbar parts
+ **************************/
+nav#navbar > ul.nav > li {
+  margin: 0;
+}
+
+
+/***************************
+ *  li bullet from markdown.
+ **************************/
+.post-content > ul > li {
+  padding-left: 1.1em;
+
+  &:before {
+    content: '\f192';
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 1.1em;
+    margin-left: -1.1em;
+  }
+}

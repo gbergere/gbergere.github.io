@@ -169,8 +169,6 @@ a:hover .panel-avatar{
 }
 #navbar  ul li{
 	list-style-type: none;
-	margin-bottom: $panel-nav-text-marginbtm-size;
-	margin-top: 0px;
 	font-weight: 300;
 	font-size: $panel-nav-text-size;
 	padding:0 !important;
@@ -308,7 +306,7 @@ a:hover .panel-avatar{
 		text-align: left;
 	}
 }
-.content-posts city{
+.content-posts city {
 font-size: $content-post-info-font-size;
 color: $content-post-info-color;
 }
@@ -323,25 +321,6 @@ color: $content-post-info-color;
 }
 #informations h4{
 		font-weight:bold;
-}
-a.content-download-button{
-	margin-top      : 50px;
-	padding         : 10px;
-	margin-bottom	: 20px;
-	width           : 300px;
-	display         : block;
-	margin-left     : auto;
-	margin-right    : auto;
-	background-color: $content-pdf-button-color;
-	color 			: $content-pdf-text-color !important;
-	border-radius   : 5px;
-	text-align      : center;
-	font-size       : $content-pdf-text-size;
-	font-style	 	: bold !important;
-
-}
-a:hover.content-download-button{
-	background-color: $content-pdf-button-color-hover;
 }
 
 /*#######################*/
@@ -358,8 +337,6 @@ footer a{
 footer a:hover{
 	color: $footer-link-hover-color;
 }
-
-
 
 
 
@@ -387,4 +364,18 @@ blockquote.content-quote {
 
 #informations ul {
   margin-bottom: 20px;
+}
+
+/**************************
+ *  Footer Part
+ *************************/
+#download-resume {
+  display: block;
+  margin: 50px auto 20px auto;
+  padding: 10px;
+
+  background-color: black;
+  color: white !important;
+  border-radius: 5px;
+  font-size: $content-pdf-text-size;
 }
