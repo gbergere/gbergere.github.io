@@ -9,11 +9,9 @@
                 </div>
 
                 {%if post.website %}
-                    <p class="location">
-                        <a href="{{ post.website }}">
-                            <i class="fa fa-globe"></i> Visit web page
-                        </a>
-                    </p>
+                    <p><a class="website" href="{{ post.website }}">
+                        Visit web page
+                    </a></p>
                 {% endif %}
 
                 <div class="post-content">

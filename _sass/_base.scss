@@ -28,13 +28,37 @@ nav#navbar > ul.nav > li {
  *  li bullet from markdown.
  **************************/
 .post-content > ul > li {
+  @extend %fa-webicon;
+  &:before {
+    content: '\f192';
+  }
+}
+
+/*************************
+ *  Webicons.
+ ************************/
+%fa-webicon {
   padding-left: 1.1em;
 
   &:before {
-    content: '\f192';
     font-family: FontAwesome;
     display: inline-block;
     width: 1.1em;
     margin-left: -1.1em;
+    color: black;
+  }
+}
+
+.location {
+  @extend %fa-webicon;
+  &:before {
+    content: '\f041';
+  }
+}
+
+.website {
+  @extend %fa-webicon;
+  &:before {
+    content: '\f0ac';
   }
 }

@@ -24,17 +24,18 @@
                 </div>
 
                 <div class="row">
-                    {%if  post.website %}
-                        <p class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <a href="{{ post.website }}">
-                                <i class="fa fa-globe"></i> Visit web page
+                    {%if post.website %}
+                        <p class="col-sm-6 col-xs-12">
+                            <a class="website" href="{{ post.website }}">
+                                Visit web page
                             </a>
                         </p>
                     {% endif %}
 
+
                     {% if post.city %}
-                        <p class="location col-md-6 col-xs-12">
-                            <i class="fa fa-map-marker" ></i> {{ post.city }}
+                        <p class="col-sm-6 col-xs-12">
+                            <span class="location ">{{ post.city }}</span>
                         </p>
                     {% endif %}
                 </div>
