@@ -306,7 +306,7 @@ a:hover .panel-avatar{
 		text-align: left;
 	}
 }
-.content-posts city {
+.content-posts p {
 font-size: $content-post-info-font-size;
 color: $content-post-info-color;
 }
@@ -343,7 +343,17 @@ footer a:hover{
 
 
 
-
+/**************************
+ *  Common
+ *************************/
+.content-posts  p.duration {
+  text-align: right;
+  font-size: $content-post-info-font-size;
+  color: $content-post-info-color;
+  @media(max-width: 1200px){
+    text-align: left;
+  }
+}
 
 /**************************
  *  Header Part

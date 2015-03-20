@@ -8,12 +8,12 @@
                     <i class="fa fa-chevron-right"></i> {{ post.title }}
                 </div>
 
-                {%if  post.website %}
-                    <city>
-                        <a href="{{ post.website }}" target="_blanck">
+                {%if post.website %}
+                    <p class="location">
+                        <a href="{{ post.website }}">
                             <i class="fa fa-globe"></i> Visit web page
                         </a>
-                    </city>
+                    </p>
                 {% endif %}
 
                 <div class="post-content">
