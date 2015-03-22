@@ -3,9 +3,10 @@
 ---
 @charset "utf-8";
 
-$navbar         : #b437e1;
-$navbar-hover   : #d23bff;
-$links          : #2A7AE2;
+$navbar         : #874bcd;
+$navbar-hover   : #AD56FF;
+$link           : #2a83eb;
+$link-hover     : #2762c3;
 $quote          : #434343;
 
 /*################################################################################*/
@@ -18,8 +19,8 @@ $quote          : #434343;
 
 
 /* -- >links */
-$link-color                       : $links;
-$link-color-hover                 : $navbar;
+$link-color                       : $link;
+$link-color-hover                 : $link-hover;
 
 /* --> Fonts */
 $font-global                      : 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -65,7 +66,7 @@ $content-background-color         : white;
 $content-text-color               : black;
 
 $content-quote-color              : $quote;
-$content-title-text-color         : $links;
+$content-title-text-color         : $link;
 $content-post-title-color         : $content-text-color;
 $content-post-info-color          : #818181;
 $content-post-color         : #434343;
