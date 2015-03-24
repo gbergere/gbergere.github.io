@@ -10,10 +10,10 @@ references: ["PHP", "MySQL", "MVP", "(x)HTML"]
 categories: experiences
 ---
 
-* I worked on an e-Commerce website base which manage vendors and customers like
+* Work on an e-Commerce website base which manage vendors and customers like
 eBay or Amazon.
-* In this one I developed an import/export plugin to automate catalogue's
-furnishing. Like this, vendors would be able to push their catalogue from their
-own website automatically.
-* I developed a second plugin to tax vendors. Because to working, this platform
-needs money, that's why it takes some taxes on selling.
+* Develop an import/export plugin to automate catalogue's furnishing.
+* Vendors would be able to push automatically their catalogue from their own
+website.
+* Develop another plugin to tax vendors on their orders.
+

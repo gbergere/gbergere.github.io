@@ -1,0 +1,14 @@
+/***************************
+ *  Ribbon.
+ **************************/
+#ribbon{
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 0;
+  z-index:10;
+
+  @media(max-width: $responsive-witdh){
+    position: absolute;
+  }
+}

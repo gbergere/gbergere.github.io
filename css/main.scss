@@ -3,11 +3,16 @@
 ---
 @charset "utf-8";
 
+@import "bootstrap-variables";
+@import "github-table";
+
 $navbar         : #874bcd;
 $navbar-hover   : #AD56FF;
 $link           : #2a83eb;
 $link-hover     : #2762c3;
 $quote          : #434343;
+
+$responsive-witdh: $screen-md-min;
 
 /*################################################################################*/
 /*#       !!!!! CHANGE PARAMETER HERE TO CHANGE COLORS/FONTS etc... !!!!!        #*/
@@ -35,7 +40,7 @@ $font-content-post            : $font-global;
 /*#######################*/
 /* --> ressources */
 $avatar-image :     "/img/Geoffrey.jpg";  /* Need to be local (in assets forlder) */
-$background-image : "/img/background.png"; /*Need to be local (in assets forlder)*/
+$background-image : ""; /*Need to be local (in assets forlder)*/
 /* --> Colors */
 $panel-text-color                 : white;
 $panel-summary-color              : white;
@@ -99,3 +104,4 @@ $footer-link-hover-color          : $link-color-hover;
 @import "base";
 @import "layout-navbar";
 @import "layout-resume";
+
