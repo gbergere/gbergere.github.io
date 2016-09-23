@@ -4,8 +4,8 @@ company: "Contentment"
 city: "London (United Kingdom)"
 website: "http://contentment.io/about-us.html"
 entry_date : "October 2015"
-out_date: "now"
-time : "4 months"
+out_date: "May 2016"
+time : "6 months"
 references: ["Amazon Web Services", "Docker", "CI/CD (drone.io)", "MongoDB", "Git"]
 categories: experiences
 ---
