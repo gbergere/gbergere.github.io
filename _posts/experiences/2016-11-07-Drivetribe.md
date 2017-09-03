@@ -15,4 +15,4 @@ categories: experiences
 * Refactoring environments to be easy to run, update and dispose (qa, staging, prod).
 * Work around failure points and scalability to be online as much as possible.
 * Improve, speed up and stabilise the releasing process. 
-* _Basically being agile and continuously improving the infrastructure..._
+* _Basically being agile and continuously improving the infrastructure._
