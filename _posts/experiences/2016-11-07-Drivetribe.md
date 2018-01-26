@@ -4,8 +4,8 @@ company: "Drivetribe"
 city: "London (United Kingdom)"
 website: "https://drivetribe.com"
 entry_date : "November 2016"
-out_date: "now"
-time : "8 months"
+out_date: "October 2017"
+time : "1 year"
 references: ["Amazon Web Services", "Kubernetes", "terraform", "ansible", "Jenkins Pipeline"]
 categories: experiences
 ---
