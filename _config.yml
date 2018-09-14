@@ -6,7 +6,7 @@ description: >
 url: "http://www.gbergeret.org"
 keywords: [
   "Geoffrey BERGERET", "IT Engineer", "gbergeret.org",
-  "Leo Derbois","github","jekyll","jekyllrb","_resume","CV","Boba Fett"
+  "Leo Derbois", "github", "jekyll", "jekyllrb", "_resume", "CV", "Boba Fett"
 ]
 
 author:
@@ -14,11 +14,11 @@ author:
   name: "Geoffrey Bergeret"
   email: "job@gbergeret.com"
   skype: "geoffrey.bergeret"
-  phone: "+44 7842 783612"
+  # phone: "+44 7842 783612"
   linkedin: "geoffrey-bergeret/37/b2/667"
   github: "gbergere"
   twitter: "gbergere"
-#  facebook: "gbergere"
+  # facebook: "gbergere"
 
 # Build settings
 markdown: kramdown

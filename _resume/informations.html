@@ -12,9 +12,11 @@
                 <li><a href="skype:{{ site.author.skype }}">
                     <i class="fa fa-skype"></i> {{ site.author.skype }}
                 </a></li>
+                {% if site.author.phone %}
                 <li><a href="tel:{{ site.author.phone | replace:' ', '' | replace:'.','' }}">
                     <i class="fa fa-phone"></i> {{ site.author.phone }}
                 </a></li>
+                {% endif %}
             </ul>
 
             <h4>Social Networking</h4>
