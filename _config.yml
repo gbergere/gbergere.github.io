@@ -11,7 +11,7 @@ keywords: [
 ]
 
 author:
-  title: "DevOps Engineer"
+  title: "Infrastructure Engineer"
   name: "Geoffrey Bergeret"
   email: "job@gbergeret.com"
   skype: "geoffrey.bergeret"
@@ -27,4 +27,4 @@ permalink: pretty
 
 # User variables
 # repository: "https://github.com/gbergere/gbergere.github.io"
-quote: "Divide and Rule"
+quote: "Single Responsibility Principle"
